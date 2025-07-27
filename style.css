@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.logo{
+    font-size: 2rem;
+    font-weight:600;
+    color: #4b5b67;
+    cursor: pointer;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+.item{
+    color: gray;
+    padding: 10px;
+    border-radius: 29px;
+    transition: 0.4s ease;
+
+}
+.item:hover{
+    color: #252d33;
+    background-color: aliceblue;
+}
+.user{
+    background-color: aliceblue;
+    color: #088de0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 29px;
+    transition: 0.4s ease;
+}
+.user:hover{
+    color: white;
+    background-color: rgb(124, 194, 255);
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(245, 245, 245, 0.322);
+}
+.left{
+    flex-basis: 60%;
+    margin: auto 100px;
+    padding: 30px;
+}
+.right{
+    flex-basis: 40%;
+    margin: auto 100px;
+}
+.laundry{
+    height: 400px;
+    mix-blend-mode: multiply;
+}
+.left>h1{
+    color: #4a5a66;
+    font-size: 2.6rem;
+}
+.left>p{
+    color: gray;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+button{
+    background-color: #088de0;
+    border: none;
+    border-radius: 19px;
+    padding: 30px;
+    font-size: 1.1rem;
+    color: white;
+    transition: 0.5s ease;
+}
+button:hover{
+    background-color: #24abff;
+    cursor: pointer;
+    transform: translatey(-5px);
+}
+
